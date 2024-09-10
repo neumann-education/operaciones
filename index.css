@@ -22,13 +22,13 @@
 }
 
 .u-section-1 .u-list-1 {
-  margin-top: 59px;
+  margin-top: 57px;
   margin-bottom: 60px;
 }
 
 .u-section-1 .u-repeater-1 {
   grid-template-columns: repeat(3, calc(33.3333% - 18px));
-  min-height: 558px;
+  min-height: 591px;
   grid-gap: 27px;
 }
 
@@ -58,12 +58,22 @@
 }
 
 .u-section-1 .u-btn-1 {
-  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
   border-style: solid;
   --radius: 50px;
-  margin: 25px auto 0;
+  background-image: none;
+  margin: 27px auto 0;
+  padding: 6px 46px 7px 45px;
+}
+
+.u-section-1 .u-btn-2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-style: solid;
+  --radius: 50px;
+  background-image: none;
+  margin: 19px auto 0;
   padding: 6px 46px 7px 45px;
 }
 
@@ -92,13 +102,23 @@
   margin: 18px 0 0;
 }
 
-.u-section-1 .u-btn-2 {
-  font-weight: 400;
+.u-section-1 .u-btn-3 {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-style: solid;
   --radius: 50px;
-  margin: 25px auto 0;
+  background-image: none;
+  margin: 27px auto 0;
+  padding: 6px 46px 7px 45px;
+}
+
+.u-section-1 .u-btn-4 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-style: solid;
+  --radius: 50px;
+  background-image: none;
+  margin: 19px auto 0;
   padding: 6px 46px 7px 45px;
 }
 
@@ -127,13 +147,23 @@
   margin: 18px 0 0;
 }
 
-.u-section-1 .u-btn-3 {
-  font-weight: 400;
+.u-section-1 .u-btn-5 {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-style: solid;
   --radius: 50px;
-  margin: 25px auto 0;
+  background-image: none;
+  margin: 27px auto 0;
+  padding: 6px 46px 7px 45px;
+}
+
+.u-section-1 .u-btn-6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-style: solid;
+  --radius: 50px;
+  background-image: none;
+  margin: 19px auto 0;
   padding: 6px 46px 7px 45px;
 }
 
@@ -144,19 +174,31 @@
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 18px));
-    min-height: 455px;
+    min-height: 482px;
   }
 
   .u-section-1 .u-image-1 {
     height: 225px;
   }
 
+  .u-section-1 .u-btn-1 {
+    font-weight: 400;
+  }
+
   .u-section-1 .u-image-2 {
     height: 225px;
   }
 
+  .u-section-1 .u-btn-3 {
+    font-weight: 400;
+  }
+
   .u-section-1 .u-image-3 {
     height: 225px;
+  }
+
+  .u-section-1 .u-btn-5 {
+    font-weight: 400;
   }
 }
 
@@ -184,7 +226,7 @@
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 13.5px));
-    min-height: 1095px;
+    min-height: 1158px;
   }
 
   .u-section-1 .u-image-1 {
@@ -285,10 +327,6 @@
 
   .u-section-1 .u-image-2 {
     height: 235px;
-  }
-
-  .u-section-1 .u-text-5 {
-    font-size: 1.625rem;
   }
 
   .u-section-1 .u-container-layout-3 {
